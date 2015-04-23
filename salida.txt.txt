@@ -3,3 +3,4 @@ La suma es: 35
 La resta es: -11
 La division es: 9.99269e-007
 x
+numero meyor a dos y menor a 10

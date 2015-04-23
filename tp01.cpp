@@ -19,9 +19,12 @@ bool racingEsCampeon = true;
 
 	string texto1str,texto2str,texto3str,finalstr;
 	texto1str = "Racing";
-	texto2str = "Campeon";
-	texto3str = "Subcampeon";
-	if(racingEsCampeon) {
+	texto2str = "Subcampeon";
+	texto3str = "Campeon";
+	int numerito1,numerito2;
+	numerito1 = 6;
+	numerito2 = -1;
+	if(!racingEsCampeon) {
 	finalstr = texto1str+ " " + texto2str;
 	cout << finalstr << endl;
 }
@@ -44,5 +47,11 @@ bool racingEsCampeon = true;
     letra1 = 'n';
     letra2 = letra1 + 10;
     cout << letra2 << endl;
-	return 0;
+	if(numerito1>2 && numerito1<10) {
+		cout<< "numero meyor a dos y menor a 10" <<endl;
+	}
+	if(numerito2>0 || numerito2==-3) {
+		cout<<"Numero mayor a 0 o es -3"<<endl;
+	}
+    return 0;
 }
